@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         val btnBasic = findViewById<Button>(R.id.btnBasic)
         val btnAdditional = findViewById<Button>(R.id.btnAdditional)
 
-        // Load default fragment
+        
         supportFragmentManager.beginTransaction()
             .replace(R.id.fragmentContainer, MovieBasicDetailsFragment())
             .commit()
